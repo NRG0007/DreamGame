@@ -5,9 +5,7 @@ using System;
 using UnityEngine.UI;
 using GameEngine.Res;
 using GameEngine;
-using GameEngine.Events;
 using GameEngine.Sound;
-using UnityEngine.EventSystems;
 
 public class PanelController : SingleMonoBehaviour<PanelController>
 {
@@ -101,9 +99,6 @@ public class PanelController : SingleMonoBehaviour<PanelController>
 		backKeyController.AddComponent<BackKeyController> ();
 
 		gameBGContainer = CreateBaseObj ("GameBGContainer", uiPanelRootContainer);
-		//Image image = gameBGContainer.gameObject.AddComponent<Image> ();
-		//image.color = Color.black;
-		//image.raycastTarget = false;
 
 		contentPanelContainer = CreateBaseObj ("ContentPanelContainer", uiPanelRootContainer);
 

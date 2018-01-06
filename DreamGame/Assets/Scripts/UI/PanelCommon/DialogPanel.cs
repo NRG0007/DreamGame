@@ -1,9 +1,3 @@
-/// <summary>
-/// 描 述：
-/// 
-/// 作 者：曾飞	
-/// 创建时间：2017-07-06 16:48:22
-/// </summary>
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
